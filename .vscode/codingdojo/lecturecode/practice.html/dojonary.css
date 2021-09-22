@@ -1,0 +1,70 @@
+*{margin: 0;
+  padding: 0;
+}
+div{border: 1px solid black;
+    }
+body{display: block;
+    margin: 50px;
+    margin-top: 0;
+    height: 600px;
+    width: 1244px;
+    }
+.defined{ float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+            margin: 30px;
+            height: 200px;
+            width: 300px;
+            position: absolute;
+            top: 45px;
+            left: 700px;
+        }
+.ninjaHistoryDef, .ninjaCompDef{ display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin: 10px;
+                                height: 250px;
+                                width: max-content;
+                                justify-content: space-around;
+                                
+                            }
+                            
+.word{display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+        margin-left: 20px;
+        font-size: 1em;
+    }
+    .definition{flex: 3;}
+.likebutton{background-color: yellow;
+            color: black;
+            justify-content: center;
+            width: 80px;
+            height: 30px;
+            margin: 30px;
+            margin-left: 0;}
+        
+.searchbox{background-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+#login{background-color: blue;
+        color: white;
+        width: 72px;}
+
+input{  margin-top: 5px;
+        margin-bottom: 5px;
+        border: 2px solid black;}
+.addDef{width: 75%;
+        height: 50px;
+        align-self: center;
+        background-color: green;
+        color: black;
+        }
+span{color: blue;
+    text-decoration: underline;}
+

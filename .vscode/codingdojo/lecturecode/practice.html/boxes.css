@@ -1,0 +1,29 @@
+.add{ height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+font-size: xx-large;
+;
+}
+div{width: 500px;
+height: 250px;
+}
+
+#top {background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#middle{background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom{background-color: darksalmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

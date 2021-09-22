@@ -1,0 +1,1 @@
+function liked(){console.log(Ninja was liked)}
